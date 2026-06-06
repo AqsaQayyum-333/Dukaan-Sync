@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+/* Global Layout Fixes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0b111e; /* Sophisticated midnight dark */
+  color: #f3f4f6;
+  font-family: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ==========================================================================
+   GLOBAL APP RE-PADDING & ALIGNMENT OVERRIDES (No more khichri!)
+   ========================================================================== */
+
+/* 1. Universal Table Layout Clean-up */
+table {
+  width: 100% !important;
+  border-collapse: separate !important;
+  border-spacing: 0 10px !important; /* Creates beautiful space between rows */
+  margin-top: 15px !important;
+}
+
+/* 2. Global Header Styling (Left-aligned & perfectly readable) */
+th {
+  text-align: left !important; /* Force tables to align left like modern grid layout */
+  padding: 16px 24px !important; /* Premium spacious padding */
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  color: #94a3b8 !important; /* Soft slate gray header text */
+}
+
+/* 3. Global Row Data Styling (Spacious padding & left aligned) */
+td {
+  text-align: left !important; /* Forced clean alignment */
+  padding: 16px 24px !important; /* Breathing space inside row cells */
+  font-size: 14px !important;
+  vertical-align: middle !important;
+  background-color: rgba(18, 32, 56, 0.3) !important; /* Premium semi-transparent tint */
+}
+
+/* 4. Smooth corner radius for first and last cell of every row */
+td:first-child, th:first-child {
+  border-top-left-radius: 12px !important;
+  border-bottom-left-radius: 12px !important;
+  padding-left: 24px !important;
+}
+td:last-child, th:last-child {
+  border-top-right-radius: 12px !important;
+  border-bottom-right-radius: 12px !important;
+  padding-right: 24px !important;
+  text-align: right !important; /* Actions buttons will always stay perfectly right-aligned */
+}
+
+/* 5. Clear Spacing Separators for Dashboard Modules */
+form, .grid-inputs-container {
+  margin-bottom: 35px !important; /* Massive gap between inputs and action buttons */
+}
+
+.action-buttons-zone {
+  margin-bottom: 45px !important; /* Explicit separation before data tables start */
+}
+
+/* 6. Form Input Fields Standardization */
+input, select, textarea {
+  padding: 0 20px !important;
+  height: 48px !important; /* Standard premium input thickness */
+  transition: all 0.2s ease-in-out !important;
+}
+
+/* Pyara sa thin modern scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0b111e;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f2937;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #374151;
+}
