@@ -35,7 +35,7 @@ const patchCategory = async (req, res) => {
 
         if (!updatedCategory) {
             return res.status(404).json({
-                message: "Category not found"
+                message: "Category not Found!"
             });
         }
 

@@ -59,7 +59,7 @@ const createSale = async (req, res) => {
 
                 return res.status(400).json({
                     message:
-                        `Insufficient stock for ${product.name}`
+                        `Insufficient Stock for ${product.name}.`
                 });
 
             }
@@ -165,7 +165,7 @@ const getSaleById = async (req, res) => {
         if (!sale) {
 
             return res.status(404).json({
-                message: "Sale not found"
+                message: "Sale not Found!"
             });
 
         }
@@ -196,13 +196,13 @@ const deleteSale = async (req, res) => {
         if (!sale) {
 
             return res.status(404).json({
-                message: "Sale not found"
+                message: "Sale not Found!"
             });
 
         }
 
         res.json({
-            message: "Sale deleted"
+            message: "Sale Deleted!"
         });
 
     } catch (error) {

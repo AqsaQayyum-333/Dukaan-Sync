@@ -9,7 +9,6 @@ const Navbar = () => {
       <div className="flex items-center gap-4">
 
         <div className="w-[45px] h-[45px] rounded-full bg-cyan-400 flex items-center justify-center text-black font-bold">
-          A
         </div>
 
       </div>

@@ -2,11 +2,11 @@
 
 ## Overview
 
-Dukaan Sync is a modern Full Stack Inventory and Point of Sale (POS) Management System developed for small and medium-sized businesses.
+Dukaan Sync is a modern Full Stack Inventory and Point of Sale (POS) Management System developed for Small & Medium-Sized Businesses.
 
-The system helps store owners manage products, categories, suppliers, purchases, sales, stock tracking, user roles, and business operations through a clean and responsive dashboard.
+The system helps store owners manage Products, Categories, Suppliers, Purchases, Sales, Stock Tracking, User Roles & business operations through a clean & Responsive Dashboard.
 
-The project follows a role-based access control system where different users have different permissions according to their responsibilities.
+The project follows a Role-Based Access Control System where different users have different Permissions according to their Responsibilities.
 
 ---
 
@@ -179,40 +179,48 @@ Dukaan-Sync
 
 ---
 
+## WorkFlow Chart
+![WorkFlow Diagram](<Dukaan-Sync Workflow Chart.png>)
 ## Screenshots
 
 * Login Page
-![Login Page Screenshot-1](image-14.png)
-![Login Page Screenshot-2](image-15.png)
+![Login Page Screenshot-1](image.png)
+![Login Page Screenshot-2](image-1.png)
+![Login Page Screenshot-3](image-2.png)
+
 * Dashboard
-![Dashboard Screenshot](image.png)
+![Dashboard Screenshot]!(image-3.png)
 
 * Product Management
-![Products Management Screenshot-1](image-1.png)
-![Products Management Screenshot-2](image-2.png)
+![Products Management Screenshot-1](image-4.png)
+![Products Management Screenshot-2](image-5.png)
 
 * POS Billing Screen
-![POS Billing Screenshot-1](image-3.png)
-![POS Billing Screenshot-2](image-4.png)
+![POS Billing Screenshot-1](image-6.png)
+![POS Billing Screenshot-2](image-7.png)
 
 * Purchases Page
-![Purchases Page Screenshot-1](image-5.png)
-![Purchases Page Screenshot-2](image-6.png)
-
-* Suppliers Ledger
-![Supplier Ledger Screenshot-1](image-8.png)
-![Supplier Ledger Screenshot-2](image-7.png)
+![Purchases Page Screenshot-1](image-8.png)
+![Purchases Page Screenshot-2](image-9.png)
 
 * Reports & Analytics
-![Reports & Analytics Screenshot-1](image-9.png)
-![Reports & Analytics Screenshot-2](image-10.png)
+![Reports & Analytics Screenshot-1](image-10.png)
+![Reports & Analytics Screenshot-2](image-11.png)
+![Reports & Analytics Screenshot-3](image-12.png)
+![Reports & Analytics Screenshot-4](image-13.png)
 
 * Categories Registry
-![Categories Screenshot](image-11.png)
+![Categories Screenshot](image-14.png)
 
 * Users (Staff Control Panel)
-![Users Screenshot-1](image-12.png)
-![Users Screenshot-1](image-13.png)
+![Users Screenshot](image-15.png)
+
+* Suppliers Ledger
+![Supplier Ledger Screenshot-1](image-16.png)
+![Supplier Ledger Screenshot-2](image-17.png)
+
+* Staff Login 
+![Staff-Login Screenshot](image-18.png)
 
 ---
 
@@ -221,7 +229,7 @@ Dukaan-Sync
 ### Clone Repository
 
 ```bash
-git clone <>
+git clone <https://github.com/AqsaQayyum-333/Dukaan-Sync.git>
 ```
 
 ### Backend Setup
